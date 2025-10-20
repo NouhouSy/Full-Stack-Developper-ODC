@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez-nous pour vos projets photographiques">
+    <title>Contact - Monde de la Photographie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Accéder au contenu principal</a>
+    
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="contact-header">
+            <h1>Contactez-Nous</h1>
+            <p>Parlons de votre projet photographique</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-info">
+                <h2>Informations de Contact</h2>
+                <img src="https://picsum.photos/500/300?random=30" alt="Bureau professionnel avec équipement photographique" class="styled-image">
+                
+                <div class="info-flex">
+                    <div class="info-item">
+                        <h3>Adresse</h3>
+                        <p>123 Rue de la Photographie<br>75001 Paris, France</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>contact@photographie.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Téléphone</h3>
+                        <p>+33 1 23 45 67 89</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Horaires</h3>
+                        <p>Lun - Ven: 9h - 18h<br>Sam: 10h - 16h</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-section">
+                <h2>Envoyez-nous un Message</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Envoyer le message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Monde de la Photographie. Tous droits réservés.</p>
+        <p>Créé avec passion et HTML5/CSS3</p>
+    </footer>
+</body>
+</html>
